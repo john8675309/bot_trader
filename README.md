@@ -12,14 +12,14 @@ Keep in mind I know nothing about stock trading and I am only testing this in th
 
 It's a CLI application
 
-
+![](https://github.com/john8675309/bot_trader/blob/main/help.png?raw=true)
 
 
 
 **analyze <ticker>**
 See if this could be a good buy
 
-
+![](https://github.com/john8675309/bot_trader/blob/main/analyze.png?raw=true)
 
 
 
@@ -33,17 +33,23 @@ quit
 
 is the market open or not
 
+![](https://github.com/john8675309/bot_trader/blob/main/marketstatus.png?raw=true)
+
 
 
 **showorders**
 
 show open orders
 
+![](https://github.com/john8675309/bot_trader/blob/main/showorders.png?raw=true)
+
 
 
 **buy <ticker> <shares> <market (optional default Limit)>**
 
 but ticker number of shares
+
+![](https://github.com/john8675309/bot_trader/blob/main/buy.png?raw=true)
 
 
 
@@ -52,6 +58,8 @@ but ticker number of shares
 Alpaca Balance
 
 **be cautious of margin**
+
+![](https://github.com/john8675309/bot_trader/blob/main/balance.png?raw=true)
 
 
 
@@ -82,6 +90,8 @@ you can run createlimitorders this will drain your balance and buy "Strong Buy" 
 
 Time from Alpaca
 
+![](https://github.com/john8675309/bot_trader/blob/main/gettime.png?raw=true)
+
 
 
 **readtickers <in_file> <out_file>**
@@ -105,6 +115,8 @@ takes argument of "Buy", "No Buy", "Strong Buy", or none for all, will show base
 
 I.E. showreommendations Strong Buy
 
+![](https://github.com/john8675309/bot_trader/blob/main/showrecommendations.png?raw=true)
+
 
 
 **downloadsymbols**
@@ -116,6 +128,8 @@ Download and store all the symbols from the SEC
 **help**
 
 Show help
+
+![](https://github.com/john8675309/bot_trader/blob/main/help.png?raw=true)
 
 
 
