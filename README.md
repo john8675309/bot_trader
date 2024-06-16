@@ -139,11 +139,11 @@ Show help
 
 
 
-**sell**
+sell <ticker> <quantity> <market (optional default Limit)]>
 
 sell stock you own
 
-sell <ticker> <quantity> <market (optional default Limit)>
+
 
 
 
