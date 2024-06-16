@@ -78,8 +78,11 @@ This is untested (markets closed, when I wrote it). should show what you own
 **createlimitorders**
 
 After you run:
+
 downloadsymbols
+
 readtickers db db
+
 you can run createlimitorders this will drain your balance and buy "Strong Buy" stocks
 
 **This is the "magic"**
@@ -97,10 +100,13 @@ Time from Alpaca
 **readtickers <in_file> <out_file>**
 
 you will mainly want to use:
+
 downloadsymbols
+
 readtickers db db
 
 but you can do
+
 readtickers <in_file> <out_file, or db>
 
 this will read tickers from a csv and output them to either an out_file csv or db with "No Buy", "Buy", or "Strong Buy"
@@ -136,6 +142,7 @@ Show help
 **sell**
 
 sell stock you own
+
 sell <ticker> <quantity> <market (optional default Limit)>
 
 
